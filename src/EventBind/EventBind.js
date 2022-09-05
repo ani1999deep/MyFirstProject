@@ -1,0 +1,30 @@
+import React from 'react';
+class EventBind extends React.Component {
+  // Initialising state
+  state = {
+    name: 'GFG',
+  };
+  
+  handler = (name1) => {
+    // Changing the state
+    this.setState({ name:  name1});
+  };
+  
+  render() {
+    return (
+      <div>
+        <h1>Name:{this.state.name}</h1>
+        <h1>Click here to change the name</h1>
+  
+        {/* Passing the name as an argument 
+         to the handler() function */}
+  
+        <button onClick={this.handler.bind(this, 'GeeksForGeeks')}>
+          Click Here
+        </button>
+      </div>
+    );
+  }
+}
+  
+export default EventBind;
