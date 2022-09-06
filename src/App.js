@@ -85,6 +85,10 @@
 // import Apidemoic from "./Important/Apidemoic";
 
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import Conditional1 from "./ConditionalRendering/Conditional1";
+import Conditional2 from "./ConditionalRendering/Conditional2";
+import Conditional3 from "./ConditionalRendering/Conditonal3";
+import Parent07 from "./MethodAsProps/Parent07";
 
 // import NavLink06 from "./NavLinkBasic/NavLink06";
 // import BrowserRouter1 from "./RoutingBasic/BrowserRouter1";
@@ -288,6 +292,11 @@ const App = () => {
 
      
      {/* <NavLink06/> */}
+
+     {/* <Parent07/> */}
+     {/* <Conditional1/> */}
+     {/* <Conditional2/> */}\
+     {/* <Conditional3/> */}
     </BrowserRouter>
   );
 };
