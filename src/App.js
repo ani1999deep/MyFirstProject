@@ -85,6 +85,11 @@
 // import Apidemoic from "./Important/Apidemoic";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import BrowserRouter1 from "./RoutingBasic/BrowserRouter1";
+import GoogleAni from "./RoutingBasic/GoogleAni";
+import MicrosoftAni from "./RoutingBasic/MicrosoftAni";
+import TwitterAni from "./RoutingBasic/TwitterAni";
+
 // import CounterAni1 from "./Projects/CouterAni1";
 // import GetInput from "./Projects/GetInput";
 // import CounterAni from "./Projects/CounterAni";
@@ -269,6 +274,15 @@ const App = () => {
       {/* <CounterAni1/> */}
       {/* <GetInput/> */}
       {/* <HideAni/> */}
+
+      <h1>Routing Basic</h1>
+
+      <Routes>
+        <Route path="/" element={<BrowserRouter1 />} />
+        <Route path="/google" element={<GoogleAni />} />
+        <Route path="/microsoft" element={<MicrosoftAni />} />
+        <Route path="/twitter" element={<TwitterAni />} />
+      </Routes>
     </BrowserRouter>
   );
 };
