@@ -1,19 +1,19 @@
-// import React from 'react'
+import React from 'react'
 
-// const Events0=()=> {
+const Events0=()=> {
 
-//     const shoots=()=>{
+    const shoots=()=>{
 
-//         console.log('hoyesche');
-//     }
+        console.log('hoyesche');
+    }
 
-//   return (
-//     <div>
-//         <h1>Event</h1>
-//         <br></br>
-//       <button onClick={shoots}>Click Me</button>
-//     </div>
-//   )
-// }
+  return (
+    <div>
+        <h1>Event</h1>
+        <br></br>
+      <button onClick={shoots}>Click Me</button>
+    </div>
+  )
+}
 
-// export default Events0
+export default Events0
