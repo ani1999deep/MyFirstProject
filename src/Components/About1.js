@@ -22,6 +22,8 @@ const About1 = () => {
 
 <h4>Welcome to about page</h4>
       <h1 style={{ color: "green" }}>{apio.category}</h1>
+      <br></br>
+      <h1>{apio.description}</h1>
      
     </>
   );

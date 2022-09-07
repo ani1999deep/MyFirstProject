@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { useNavigate } from "react-router-dom";
 
 const FetchNews24 = () => {
   const [news, setNews] = useState([]);
@@ -21,7 +22,8 @@ const FetchNews24 = () => {
       .catch((error) => {
         console(error);
       });
-  };
+
+    }
   return (
     <>
       <div className="container">
@@ -43,12 +45,12 @@ const FetchNews24 = () => {
                 </Card.Body>
 
                 <button>
-                  <Card.Link href="https://www.britannica.com/biography/Steve-Jobs">
+                  <Card.Link >
                     Card Link
                   </Card.Link>
                 </button>
                 <button>
-                  <Card.Link href="https://www.britannica.com/biography/Thomas-Edison">
+                  <Card.Link >
                     Another Link
                   </Card.Link>
                 </button>

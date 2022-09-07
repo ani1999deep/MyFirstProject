@@ -85,14 +85,23 @@
 // import Apidemoic from "./Important/Apidemoic";
 
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
-import Conditional1 from "./ConditionalRendering/Conditional1";
-import Conditional2 from "./ConditionalRendering/Conditional2";
-import Conditional3 from "./ConditionalRendering/Conditonal3";
-import Parent07 from "./MethodAsProps/Parent07";
-import UseEffectAni from "./UseEffect/UseEffectAni";
-import UseEffectAni2 from "./UseEffect/UseEffectAni2";
-import UseEffectAni3 from "./UseEffect/UseEffectAni3";
-import UseStateAni from "./UseState/UseStateAni";
+// import Conditional1 from "./ConditionalRendering/Conditional1";
+// import Conditional2 from "./ConditionalRendering/Conditional2";
+// import Conditional3 from "./ConditionalRendering/Conditonal3";
+// import Parent07 from "./MethodAsProps/Parent07";
+// import UseCallbackAni from "./UseCallBackAni/UseCallbackAni";
+// import UseEffectAni from "./UseEffect/UseEffectAni";
+// import UseEffectAni2 from "./UseEffect/UseEffectAni2";
+// import UseEffectAni3 from "./UseEffect/UseEffectAni3";
+// import UseMemoAni from "./UseMemoAni/UseMemoAni";
+// import AboutNav from "./UseNavigateAni/AboutNav";
+// import HomeNav from "./UseNavigateAni/HomeNav";
+// import UseStateAni from "./UseState/UseStateAni";
+import HomeAni from "./UseParamsAni/HomeAni";
+import ContactAni from "./UseParamsAni/ContactAni";
+import LinkMe from "./UseParamsAni/LinkMe";
+import PageAni from "./UseParamsAni/PageAni";
+import ErrorAni from "./UseParamsAni/ErrorAni";
 
 // import NavLink06 from "./NavLinkBasic/NavLink06";
 // import BrowserRouter1 from "./RoutingBasic/BrowserRouter1";
@@ -125,6 +134,7 @@ import UseStateAni from "./UseState/UseStateAni";
 // import HideAni from "./Projects/HideAni";
 
 const App = () => {
+  // const activeStyle = { color: "blue" path
   return (
     <BrowserRouter>
       {/* <Routes>
@@ -294,17 +304,37 @@ const App = () => {
         <Route path="/twitter" element={<TwitterAni />} />
       </Routes> */}
 
-     
-     {/* <NavLink06/> */}
+      {/* <NavLink06/> */}
 
-     {/* <Parent07/> */}
-     {/* <Conditional1/> */}
-     {/* <Conditional2/> */}
-     {/* <Conditional3/> */}
-     {/* <UseStateAni/> */}
-     {/* <UseEffectAni/> */}
-     {/* <UseEffectAni2/> */}
-     <UseEffectAni3/>
+      {/* <Parent07/> */}
+      {/* <Conditional1/> */}
+      {/* <Conditional2/> */}
+      {/* <Conditional3/> */}
+      {/* <UseStateAni/> */}
+      {/* <UseEffectAni/> */}
+      {/* <UseEffectAni2/> */}
+      {/* <UseEffectAni3/> */}
+      {/* <UseMemoAni/> */}
+      {/* <UseCallbackAni/> */}
+
+      {/* <div>
+      <NavLink exact to='/' activeStyle={activeStyle}>Home</NavLink>
+      <NavLink exact to ='/abounav' activeStyle={activeStyle}>About</NavLink>
+     </div> */}
+      {/* 
+     <Routes>
+      <Route exact path='/' element={<HomeNav/>}/>
+      <Route exact path='/aboutnav' element={<AboutNav/>}/>
+     </Routes> */}
+
+  
+      {/* <Routes>
+        <Route exact path="/" element={<LinkMe />} />
+        <Route path="/home" element={<HomeAni />} />
+        <Route path="/contact/:contactId" element={<ContactAni />} />
+        <Route exact path="/page/:pageId" element={<PageAni/>}/>
+        <Route path='*' element={<ErrorAni/>}/>
+      </Routes> */}
     </BrowserRouter>
   );
 };

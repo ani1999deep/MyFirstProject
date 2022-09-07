@@ -17,7 +17,7 @@ const Contact1 = () => {
   }, []);
   const navigate = useNavigate();
 
-  const amaketepo = () => {
+  const clickMe = () => {
     navigate("/About1");
   };
 
@@ -29,7 +29,7 @@ const Contact1 = () => {
     <>
       <h1 style={{ color: "green" }}>This is a Contact Page.</h1>
 
-      <button onClick={amaketepo}>Click me</button>
+      <button onClick={clickMe}>Click me</button>
       {apio.map((_a) => {
         return <h4 onClick={() => getId(_a.id)}>{_a.title}</h4>;
       })}
