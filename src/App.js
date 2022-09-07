@@ -89,6 +89,10 @@ import Conditional1 from "./ConditionalRendering/Conditional1";
 import Conditional2 from "./ConditionalRendering/Conditional2";
 import Conditional3 from "./ConditionalRendering/Conditonal3";
 import Parent07 from "./MethodAsProps/Parent07";
+import UseEffectAni from "./UseEffect/UseEffectAni";
+import UseEffectAni2 from "./UseEffect/UseEffectAni2";
+import UseEffectAni3 from "./UseEffect/UseEffectAni3";
+import UseStateAni from "./UseState/UseStateAni";
 
 // import NavLink06 from "./NavLinkBasic/NavLink06";
 // import BrowserRouter1 from "./RoutingBasic/BrowserRouter1";
@@ -295,8 +299,12 @@ const App = () => {
 
      {/* <Parent07/> */}
      {/* <Conditional1/> */}
-     {/* <Conditional2/> */}\
+     {/* <Conditional2/> */}
      {/* <Conditional3/> */}
+     {/* <UseStateAni/> */}
+     {/* <UseEffectAni/> */}
+     {/* <UseEffectAni2/> */}
+     <UseEffectAni3/>
     </BrowserRouter>
   );
 };
