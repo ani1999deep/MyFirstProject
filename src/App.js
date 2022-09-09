@@ -4,7 +4,7 @@
 
 // import Navbar from "./Components/Navbar";
 
-// import ApiDynamic from "./Important/ApiDynamic";
+import ApiDynamic from "./Important/ApiDynamic";
 // import Apireqres1 from "./Important/Apireqres1";
 
 // import ApiDynamic1 from "./Important/ApiDynamic1";
@@ -84,7 +84,11 @@
 
 // import Apidemoic from "./Important/Apidemoic";
 
+import { Axios } from "axios";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import ApiAxios2 from "./Axios/ApiAxios2";
+import Router08 from "./RoutingPubPriv/Router08";
+// import ApiAxios1 from "./Axios/ApiAxios1";
 // import Conditional1 from "./ConditionalRendering/Conditional1";
 // import Conditional2 from "./ConditionalRendering/Conditional2";
 // import Conditional3 from "./ConditionalRendering/Conditonal3";
@@ -97,11 +101,11 @@ import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 // import AboutNav from "./UseNavigateAni/AboutNav";
 // import HomeNav from "./UseNavigateAni/HomeNav";
 // import UseStateAni from "./UseState/UseStateAni";
-import HomeAni from "./UseParamsAni/HomeAni";
-import ContactAni from "./UseParamsAni/ContactAni";
-import LinkMe from "./UseParamsAni/LinkMe";
-import PageAni from "./UseParamsAni/PageAni";
-import ErrorAni from "./UseParamsAni/ErrorAni";
+// import HomeAni from "./UseParamsAni/HomeAni";
+// import ContactAni from "./UseParamsAni/ContactAni";
+// import LinkMe from "./UseParamsAni/LinkMe";
+// import PageAni from "./UseParamsAni/PageAni";
+// import ErrorAni from "./UseParamsAni/ErrorAni";
 
 // import NavLink06 from "./NavLinkBasic/NavLink06";
 // import BrowserRouter1 from "./RoutingBasic/BrowserRouter1";
@@ -335,6 +339,14 @@ const App = () => {
         <Route exact path="/page/:pageId" element={<PageAni/>}/>
         <Route path='*' element={<ErrorAni/>}/>
       </Routes> */}
+
+
+
+      {/* <Router08/> */}
+
+      {/* <ApiAxios1/> */}
+      {/* <ApiAxios2/> */}
+
     </BrowserRouter>
   );
 };
