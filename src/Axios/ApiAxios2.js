@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import Card from "react-bootstrap/Card";
 const ApiAxios2 = () => {
-  const [apireq, setApireq] = useState();
+  const [apireq, setApireq] = useState([]);
   useEffect(() => {
     axios
       .get("https://reqres.in/api/users?page=2")
@@ -18,6 +18,7 @@ const ApiAxios2 = () => {
   });
   return (
     <>
+    
       <div>
         <table>
           <tr>
@@ -35,6 +36,11 @@ const ApiAxios2 = () => {
               <td>{apiOk.first_name}</td>
               <td>{apiOk.last_name}</td>
               <td>{apiOk.avatar}</td>
+              <div>
+    <Card style={{ width: "45rem" }}>
+                <Card.Img variant="top" src={apiOk.avatar} />
+                </Card>
+    </div>
             </tr>
           ))}
         </table>

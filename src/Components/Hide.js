@@ -4,7 +4,7 @@ import "./Components/hide.css"
 
 const Hide=()=> {
 
-    const[hide,setHide,oho]=useState(true)
+    const[hide,setHide]=useState(true)
   return(
 
 <div className='ac'>

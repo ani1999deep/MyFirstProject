@@ -7,7 +7,7 @@ class Anid3 extends React.Component{
 
 //    Same here for state also
 
-        const {state1,state2}=this.state
+        // const {state1,state2}=this.state
 
         return(
 

@@ -3,7 +3,7 @@ import React from "react";
 
 // Anathor example of destructing props and state
 
-const  Anid2=props=>{
+const  Anid2=(props)=>{
 
 const{name,heroName}=props
 

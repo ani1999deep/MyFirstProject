@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const ApiAxios1 = () => {
-  const [apireq, setApireq] = useState();
+  const [apireq, setApireq] = useState("");
   useEffect(() => {
     axios
       .get("https://reqres.in/api/users/2")
@@ -18,8 +18,8 @@ const ApiAxios1 = () => {
       });
   });
   return (
-    <div>
-      <table>
+    <>
+     
         <tr>
           <th>ID</th>
           <th>Email</th>
@@ -34,8 +34,8 @@ const ApiAxios1 = () => {
           <td>{apireq.last_name}</td>
           <td>{apireq.avatar}</td>
         </tr>
-      </table>
-    </div>
+      
+    </>
   );
 };
 export default ApiAxios1;

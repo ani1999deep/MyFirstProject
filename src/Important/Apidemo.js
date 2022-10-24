@@ -22,11 +22,11 @@ const Apidemo = () => {
     <>
       <table border="2">
         <tr>
-          <td>ID</td>
-          <td>EMAIL</td>
-          <td>FIRST NAME</td>
-          <td>LAST NAME</td>
-          <td>AVATAR</td>
+          <th>ID</th>
+          <th>EMAIL</th>
+          <th>FIRST NAME</th>
+          <th>LAST NAME</th>
+          <th>AVATAR</th>
         </tr>
 
   

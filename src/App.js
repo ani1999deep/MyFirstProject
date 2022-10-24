@@ -4,7 +4,7 @@
 
 // import Navbar from "./Components/Navbar";
 
-import ApiDynamic from "./Important/ApiDynamic";
+// import ApiDynamic from "./Important/ApiDynamic";
 // import Apireqres1 from "./Important/Apireqres1";
 
 // import ApiDynamic1 from "./Important/ApiDynamic1";
@@ -84,10 +84,35 @@ import ApiDynamic from "./Important/ApiDynamic";
 
 // import Apidemoic from "./Important/Apidemoic";
 
-import { Axios } from "axios";
+// import { Axios } from "axios";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
-import ApiAxios2 from "./Axios/ApiAxios2";
-import Router08 from "./RoutingPubPriv/Router08";
+import AppOk from "./RouterV5/AppOk";
+// import AppAni from "./Todolist/AppAni";
+// import Ani1 from "./PracticeRouting/Ani1";
+// import Ani2 from "./PracticeRouting/Ani2";
+// import Ani3 from "./PracticeRouting/Ani3";
+// import Layout1 from "./PracticeRouting/Layout1";
+// import FormVal2 from "./Formvalidation/FormVal2";
+// import FormVali from "./Formvalidation/FormVali";
+// import FormAni from "./Practice/FormAni";
+// import ApiAxios3 from "./Practice/ApiAxios3";
+// import ApiAni1 from "./Practice/ApiAni1";
+// import ApiAxios2 from "./Practice/ApiAxios2";
+// import AxiosAni from './Practice/AxiosAni';
+// import Anideep4 from './Practice/Anideep4';
+// import AppHoc from './HOC/AppHoc';
+// import Anideep1 from './Practice/Anideep1';
+// import Anideep3 from './Practice/Anideep3';
+
+
+
+
+// import Weather from './Weather app/Weather';
+// import ApiAxios2 from "./Axios/ApiAxios2";
+// import AxiosAni1 from './Practice/AxiosAni1';
+// import Router08 from "./RoutingPubPriv/Router08";
+// import Product from "./ShoppingApp/Product";
+// import ProductDetails from "./ShoppingApp/ProductDetails";
 // import ApiAxios1 from "./Axios/ApiAxios1";
 // import Conditional1 from "./ConditionalRendering/Conditional1";
 // import Conditional2 from "./ConditionalRendering/Conditional2";
@@ -137,6 +162,9 @@ import Router08 from "./RoutingPubPriv/Router08";
 // import LocalStro from "./Components/LocalStro";
 // import HideAni from "./Projects/HideAni";
 
+
+// import Anideep from "./Practice/Anideep";
+
 const App = () => {
   // const activeStyle = { color: "blue" path
   return (
@@ -146,8 +174,8 @@ const App = () => {
 
         <Route exact path="/Details/:id" element={<About1 />} />
       </Routes> */}
-
-      {/* <Routes>
+{/* 
+      <Routes>
 
 <Route exact  path="/" element={<Layout/>}/>
   <Route path='/contact' element={<Contact/>}/>
@@ -201,17 +229,17 @@ const App = () => {
           */}
       {/* <Student/> */}
 
-      {/* <Anid name='Dip' heroName='batman'/>
+      {/* <Anid name='Dip' heroName='batman'/> */}
 
-          <Anid2 name='Avi' heroName='superman'/> */}
+          {/* <Anid2 name='Avi' heroName='superman'/>  */}
 
       {/* <Anid3 name='Dip' heroName='batman'/>
 
           <Anid3 name='Avi' heroName='superman'/> */}
 
-      {/* <Anid4/>
+       {/* <Anid4/> */}
 
-          <Anid5/> */}
+          {/* <Anid5/> */}
 
       {/* <Anid6/> */}
 
@@ -346,6 +374,62 @@ const App = () => {
 
       {/* <ApiAxios1/> */}
       {/* <ApiAxios2/> */}
+       
+        {/* <Routes>
+
+       <Route exact path='/' element={<Product/>}/>
+        <Route path="/ProductDetails/:id" element={<ProductDetails/>}/>
+      </Routes> */}
+      
+
+      {/* <Weather/> */}
+      
+
+
+
+
+{/* Revice */}
+
+{/* <AppHoc/> */}
+
+<div>
+
+
+{/* <Anideep/> */}
+{/* <Anideep1 name='Anideep' namechar='Bad boy'/> */}
+{/* <Anideep3 hero='boy' heroChar='good'/> */}
+{/* <Anideep4/> */}
+
+{/* <AxiosAni/> */}
+
+{/* <AxiosAni1/> */}
+{/* <ApiAxios2/> */}
+{/* <ApiAni1/> */}
+{/* <ApiAxios3/> */}
+{/* <FormVali/> */}
+{/* <FormAni/> */}
+{/* <FormVal2/> */}
+</div>
+
+<div>
+  {/* <Routes>
+
+    <Route exact path="/" element={<Layout1/>}/>
+    <Route path="/ani1" element={<Ani1/>}/>
+    <Route path="/ani2" element={<Ani2/>}/>
+    <Route path="/ani3" element={<Ani3/>}/>
+  </Routes > */}
+</div>
+
+<div>
+  {/* <AppAni/> */}
+
+  <AppOk/>
+</div>
+
+
+
+
 
     </BrowserRouter>
   );

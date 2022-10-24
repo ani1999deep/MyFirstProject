@@ -2,7 +2,7 @@ import React from "react";
 
 const Events1=()=>{
 
-    const saptamita=()=>{
+    const Anideep=()=>{
 
         console.log('abar hoyeache');
         alert('abar hoyeache');
@@ -12,7 +12,7 @@ const Events1=()=>{
         <div>
 <h1>This is a another events</h1>
 <br></br>
-<button onClick={()=>saptamita()}>Click</button>
+<button onClick={()=>Anideep()}>Click</button>
 
         </div>
     )

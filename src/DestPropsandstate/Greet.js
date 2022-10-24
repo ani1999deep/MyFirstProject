@@ -1,4 +1,5 @@
 import React from "react";
+import Events1 from "../ClickEvents/Events1";
 
   const Greet = (props) => {
   // console.log(props)
@@ -7,6 +8,7 @@ import React from "react";
     <div>
       <h1>
         My is {name},I am {dept} developer
+       
       </h1>
     </div>
   );
