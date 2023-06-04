@@ -38,7 +38,7 @@
 // import Anid11 from './Components/Anid11';
 // import Ani12 from './Components/Ani12';
 // import Anid13 from './Components/Anid13';
-// import Anid14 from './Components/Anid14';
+import Anid14 from './Components/Anid14';
 // import Ani15 from './Components/Ani15';
 // import Stylesheets from './Components/Stylesheets';
 // import Inline from './Components/Inline';
@@ -86,7 +86,16 @@
 
 // import { Axios } from "axios";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
-import AppOk from "./RouterV5/AppOk";
+import Practice from './PracticeDaily/Practice';
+import AppAni2 from './Darg/Drag';
+import Drag from './Darg/Drag';
+import AnideepUni from './Components/UniquieId/AnideepUni';
+import GetMethod from './ApiCalling/GetMethod';
+import PostAxios from './Post/PostAxios';
+import PostMethod from './ApiCalling/PostMethod';
+// import Local1 from './LocalStorage/Local';
+// import LocalStorage from "./LocalStorage/LocalStorage";
+// import AppOk from "./RouterV5/AppOk";
 // import AppAni from "./Todolist/AppAni";
 // import Ani1 from "./PracticeRouting/Ani1";
 // import Ani2 from "./PracticeRouting/Ani2";
@@ -422,9 +431,20 @@ const App = () => {
 </div>
 
 <div>
+  {/* <Drag/> */}
   {/* <AppAni/> */}
 
-  <AppOk/>
+  {/* <AppOk/> */}
+
+  {/* <LocalStorage/> */}
+
+  {/* <Practice/> */}
+
+  {/* <Local1/> */}
+  {/* <AnideepUni/> */}
+  <GetMethod/>
+ {/* <PostAxios/> */}
+ {/* <PostMethod/> */}
 </div>
 
 

@@ -5,7 +5,7 @@ const UseEffectAni=()=> {
 
     useEffect(()=>{
 
-        document.title=`Your Counter is  ${count}`
+        document.title=`Your Counter is :  ${count}`
     })
 
    

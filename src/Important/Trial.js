@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Trial=()=> {
+const Trial = () => {
   const [data, setData] = useState([]);
   const [input, setInput] = useState("");
 
@@ -31,6 +31,6 @@ const Trial=()=> {
       ) : null}
     </div>
   );
-}
+};
 
 export default Trial;

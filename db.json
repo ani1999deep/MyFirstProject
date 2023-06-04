@@ -1,0 +1,29 @@
+[
+      {
+            "id":1,
+            "name":"Ani",
+            "email":"ani1@gmail.com",
+            "mobile":111
+      },
+      {
+            "id":2,
+            "name":"Ani",
+            "email":"ani1@gmail.com",
+            "mobile":111
+      }, {
+            "id":2,
+            "name":"Anideep",
+            "email":"anideep1@gmail.com",
+            "mobile":222
+      }, {
+            "id":3,
+            "name":"Aniokk",
+            "email":"aniokk1@gmail.com",
+            "mobile":333
+      }, {
+            "id":4,
+            "name":"Anikkk",
+            "email":"anikkk1@gmail.com",
+            "mobile":444
+      }
+]

@@ -1,5 +1,5 @@
 import React from "react";
-import Events1 from "../ClickEvents/Events1";
+// import Events1 from "../ClickEvents/Events1";
 
   const Greet = (props) => {
   // console.log(props)

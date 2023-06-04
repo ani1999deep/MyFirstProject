@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 
 const ApiAxios1 = () => {
-  const [apireq, setApireq] = useState("");
+ const [apireq, setApireq] = useState("");
   useEffect(() => {
     axios
       .get("https://reqres.in/api/users/2")
@@ -19,22 +19,20 @@ const ApiAxios1 = () => {
   });
   return (
     <>
-     
-        <tr>
-          <th>ID</th>
-          <th>Email</th>
-          <th>Frist Name</th>
-          <th>Last Name</th>
-          <th>Avatar</th>
-        </tr>
-        <tr>
-          <td>{apireq.id}</td>
-          <td>{apireq.email}</td>
-          <td>{apireq.first_name}</td>
-          <td>{apireq.last_name}</td>
-          <td>{apireq.avatar}</td>
-        </tr>
-      
+      <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Frist Name</th>
+        <th>Last Name</th>
+        <th>Avatar</th>
+      </tr>
+      <tr>
+        <td>{apireq.id}</td>
+        <td>{apireq.email}</td>
+        <td>{apireq.first_name}</td>
+        <td>{apireq.last_name}</td>
+        <td>{apireq.avatar}</td>
+      </tr>
     </>
   );
 };
